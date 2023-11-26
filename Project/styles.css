@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    background-color: rgb(77, 86, 86 );
+    box-shadow: inset -800px -150px 300px 200px rgba(0, 0, 0, 0.8), inset 20px -150px 300px 200px rgba(0, 0, 0, 0.3);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*top-section*/
+.navigation-wrapper {
+    height: 100px;
+    background-color: rgb(0, 0, 0); 
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+}
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.navigation-wrapper > .left-column > .logo-image img {
+    width: 200px;
+    height: 100%;
+}
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.navigation-wrapper > .center-column h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: -50px;
+    color: rgb(255, 238, 88);
+}
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 350px;
+    margin-top: -30px;
+}
+.navigation-wrapper > .center-column > .links-wrapper > .explore-link a {
+    color: rgb(254, 254, 254);
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-decoration: none;
+    filter: blur(0.04rem);
+}
+.navigation-wrapper > .center-column > .links-wrapper > .spark-link a {
+    color: rgb(125, 125, 125);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 25px;
+    text-decoration: none;
+} 
+.navigation-wrapper > .right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.navigation-wrapper > .right-column a {
+    color: rgb(254, 254, 254);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    filter: blur(0.05rem);;
+} 
+.navigation-wrapper > .right-column > .access-button {
+    background-color: rgba(125, 125, 125, 0.229);
+    padding: 15px 30px;
+    border-radius: 3px;
+    outline: none; 
+}
+
+/*hero-section*/
+.hero-section {
+    width: 1000;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.hero-section > .left-column{
+    padding: 20px 50px;
+}
+.hero-section > .left-column > .paragraph1 p{
+    color:rgb(236, 240, 241 );
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 3.2rem;
+}
+.hero-section > .left-column > .paragraph1 p> .bold{
+    font-weight: 600;
+}
+.hero-section > .left-column > .paragraph2 p{
+    color:rgb(236, 240, 241 );
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+.hero-section > .left-column > .options-button-wrapper{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.hero-section > .left-column > .options-button-wrapper >.sign-button {
+    background-color: rgb(88, 214, 141);
+    padding: 20px 35px;
+    border-radius: 3px;
+    outline: none
+}
+.hero-section > .left-column > .options-button-wrapper >.sign-button a {
+    font-size: 2.7rem;
+    font-weight:600;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.hero-section > .left-column > .options-button-wrapper >.learn-button {
+    margin-left: 25px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 25px;
+    border-radius: 3px;
+    outline: none; 
+}
+.hero-section > .left-column > .options-button-wrapper >.learn-button a {
+    font-size: 2.7rem;
+    font-weight:600;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+.hero-section > .right-column > .heading p{
+    color:rgb(254, 254, 254);
+    margin-top: 50px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.hero-section > .right-column > .Codepen-image img{
+    width: 780px;
+    height: 100%;
+}
+
+/*bottom-section*/
+.bottom-links-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.bottom-links-wrapper > .bottom-link {
+    padding: 20px 0px;
+    margin: 0px 0px 90px 0px;
+    width: 100%;
+    background-color: rgba(100, 100, 100, 100);
+    border: solid 1px rgb(191, 191, 191);
+    outline: none;
+}
+.bottom-links-wrapper > .bottom-link a {
+    font-size: 1.4rem;
+    font-weight:600;
+    letter-spacing: -0.1rem;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+}
+.bottom-links-wrapper > .bottom-link a> .bold{
+    font-size: 2rem;
+    font-weight: 800;
+}
